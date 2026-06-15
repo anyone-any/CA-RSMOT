@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cost-agent-mot"
+version = "0.1.0"
+description = "Cost-aware detector-tracker scheduling for remote-sensing multi-object tracking."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Anonymous Authors"}]
+dependencies = []
+keywords = ["multi-object-tracking", "remote-sensing", "cost-aware-inference", "scheduler"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/anyone-any/DMAS"
+Repository = "https://github.com/anyone-any/DMAS"
+Issues = "https://github.com/anyone-any/DMAS/issues"
+
+[project.scripts]
+cost-agent-mot = "cost_agent_mot.cli:main"
+
+[tool.setuptools]
+packages = ["cost_agent_mot"]

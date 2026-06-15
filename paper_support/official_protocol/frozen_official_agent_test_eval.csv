@@ -1,0 +1,2 @@
+split,tracker,eval_dir,HOTA,MOTA,IDF1,CLR_TP,CLR_FN,CLR_FP,IDSW,Frag,Dets,IDs
+test,frozen_cost_agent_b055,paper_support/official_protocol/frozen_cost_agent_test_eval,62.614,62.138,73.338,151391.0,44803.0,23015.0,6465.0,6051.0,174406.0,12714.0

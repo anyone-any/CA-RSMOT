@@ -1,0 +1,14 @@
+field,definition,source,used_by_scheduler,allowed_at_test_time
+sequence,MMOT sequence identifier,official split manifest,yes,yes
+frames,number of frames in the sequence,official split manifest,yes,yes
+density_score,mean detector density from sequence-level detector summaries,original/enhanced detector statistics,yes,yes
+uncertainty_score,summary of low-confidence and unstable detector observations,detector statistics,yes,yes
+det_ratio,ratio between enhanced-stream and original-stream detection counts,detector statistics,yes,yes
+det_delta_frac,fractional detection-count change between enhanced and original streams,detector statistics,yes,yes
+low_score_delta,change in low-confidence detection fraction between streams,detector statistics,yes,yes
+volatility,temporal variation of detector density and stream statistics,detector statistics,yes,yes
+class_mix,sequence-level category diversity cue,detector summaries,yes,yes
+density_extreme,coarse indicator for sparse or crowded density regimes,detector statistics,yes,yes
+agent_score,base card score reported in traces,derived from detector-stream cues,yes,yes
+cost_agent_score,normalized Cost-Agent scheduling score used for sequence ranking,derived from normalized card fields,yes,yes
+risk_level,coarse diagnostic risk group recorded in traces,derived from sequence-card fields,yes,yes

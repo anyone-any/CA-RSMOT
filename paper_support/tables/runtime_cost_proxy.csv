@@ -1,0 +1,4 @@
+policy,enhanced_frame_fraction,relative_cost,detector_time_sec,estimated_detector_plus_tracking_time_sec,reduction_vs_always_hrti_percent,notes
+Original stream + verified policy,0.000,1.000,63.00,79.76,70.3,diagnostic runtime proxy
+Frozen Cost-Agent,0.547,2.641,166.39,183.15,31.9,derived from official frozen enhanced-frame fraction and 4x proxy
+Always-HRTI + verified policy,1.000,4.000,252.00,268.76,0.0,diagnostic runtime proxy

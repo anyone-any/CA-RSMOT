@@ -1,0 +1,7 @@
+scheduler,normalization,enhanced_frame_fraction,relative_cost,HOTA,MOTA,IDF1,IDSW,Frag,notes
+Cost-Agent,sequence-set label-free,0.547,2.641,62.614,62.138,73.338,6465,6051,selected frozen setting
+Cost-Agent,training-derived,0.548,2.643,62.606,62.138,73.323,6457,6049,normalization robustness
+Density-only scheduler,sequence-set label-free,0.550,2.650,62.550,62.149,73.419,6379,6082,strong single-cue reference
+Uncertainty-only scheduler,sequence-set label-free,0.548,2.643,62.419,62.167,73.248,6477,6040,single-cue reference
+Detector-delta-only scheduler,sequence-set label-free,0.547,2.640,62.188,61.570,72.730,6764,6300,single-cue reference
+Fixed random scheduler,not applicable,0.550,2.649,62.262,61.847,72.974,6703,6307,seed 20260524

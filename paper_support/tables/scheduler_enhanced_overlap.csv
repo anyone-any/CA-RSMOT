@@ -1,0 +1,7 @@
+scheduler,enhanced_sequences,shared_enhanced_sequences_with_cost_agent,enhanced_sequence_jaccard,shared_enhanced_frames_with_cost_agent,enhanced_frame_jaccard,same_stream_decisions_as_cost_agent,same_stream_decision_fraction
+Cost-Agent,26,26,1.000,2990,1.000,50,1.000
+"Cost-Agent, training-derived normalization",26,25,0.926,2947,0.970,48,0.960
+Density-only scheduler,28,24,0.800,2476,0.703,44,0.880
+Uncertainty-only scheduler,29,20,0.571,2108,0.544,35,0.700
+Detector-delta-only scheduler,28,18,0.500,2297,0.624,32,0.640
+Fixed random scheduler,31,15,0.357,1299,0.277,23,0.460

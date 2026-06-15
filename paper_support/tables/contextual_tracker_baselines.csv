@@ -1,0 +1,7 @@
+method,comparison_scope,HOTA,MOTA,IDF1,IDSW,Frag
+SORT,Standard tracker context,35.059,25.698,33.716,9398,4623
+OC-SORT,Standard tracker context,37.539,27.490,36.948,9592,5009
+ByteTrack,Standard tracker context,46.084,37.876,46.779,11268,10160
+BoT-SORT original stream,Controlled detector-stream baseline,60.746,59.421,69.489,16505,6598
+BoT-SORT + HRTI,Controlled detector-stream baseline,61.457,60.952,70.608,16463,6042
+Full detector-tracker substrate,Controlled detector-tracker substrate,61.482,61.119,70.707,15101,5688

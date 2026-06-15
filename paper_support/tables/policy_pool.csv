@@ -1,0 +1,7 @@
+paper_policy_name,detector_stream,tracker_policy,description
+Original standard policy,Original detector stream,BoT-SORT standard policy,Validated original-stream candidate used for low and medium risk sequences
+Original strict policy,Original detector stream,BoT-SORT strict policy,Validated original-stream candidate used when stricter matching is selected
+Original crowded-scene policy,Original detector stream,TCR crowded-scene policy,Validated original-stream candidate with tracker-side continuity refinement
+HRTI standard policy,HRTI-enhanced detector stream,BoT-SORT standard policy,Validated enhanced-stream candidate used for medium risk sequences
+HRTI strict policy,HRTI-enhanced detector stream,BoT-SORT strict policy,Validated enhanced-stream candidate used when stricter matching is selected
+HRTI crowded-scene policy,HRTI-enhanced detector stream,TCR crowded-scene policy,Validated enhanced-stream candidate for dense high-risk sequences

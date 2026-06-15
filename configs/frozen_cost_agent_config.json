@@ -1,0 +1,21 @@
+{
+  "method": "cost_agent",
+  "budget_frac": 0.55,
+  "ranking_key": "cost_agent_score",
+  "score_formula": "0.72*density_score_norm + 0.16*uncertainty_score_norm + 0.08*delta_score_norm + 0.04*base_card_score_norm",
+  "policy_rule": {
+    "density_lt_5_5": "strict",
+    "density_ge_35_0": "crowded_scene",
+    "otherwise": "standard"
+  },
+  "relative_cost_proxy": "1 + 3 * hrti_frame_fraction",
+  "input_boundary": "structured sequence cards and finite policy-pool metadata only",
+  "excluded_inputs": [
+    "images",
+    "image crops",
+    "detector tensors",
+    "official-test tracking metrics",
+    "boxes or track IDs to edit"
+  ]
+}
+

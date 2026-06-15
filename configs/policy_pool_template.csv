@@ -1,0 +1,8 @@
+stream,tracker_policy,policy_id,track_dir,description
+original,standard,original_standard,PATH/TO/original_standard,Original detector stream with standard tracker settings.
+original,strict,original_strict,PATH/TO/original_strict,Original detector stream with strict tracker settings.
+original,crowded_scene,original_crowded,PATH/TO/original_crowded,Original detector stream with crowded-scene tracker settings.
+hrti,standard,hrti_standard,PATH/TO/hrti_standard,HRTI detector stream with standard tracker settings.
+hrti,strict,hrti_strict,PATH/TO/hrti_strict,HRTI detector stream with strict tracker settings.
+hrti,crowded_scene,hrti_crowded,PATH/TO/hrti_crowded,HRTI detector stream with crowded-scene tracker settings.
+

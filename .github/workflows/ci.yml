@@ -1,0 +1,40 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package
+        run: |
+          python -m pip install -U pip
+          python -m pip install -e .
+      - name: Check anonymous artifact markers
+        run: python scripts/check_anonymity.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests
+      - name: Run CLI smoke test
+        run: |
+          cost-agent-mot build-cards \
+            --original-stats examples/toy/original_stats.csv \
+            --enhanced-stats examples/toy/enhanced_stats.csv \
+            --out-csv outputs/toy/sequence_cards.csv \
+            --out-jsonl outputs/toy/sequence_cards.jsonl
+          cost-agent-mot run \
+            --cards outputs/toy/sequence_cards.jsonl \
+            --policy-pool examples/toy/policy_pool.csv \
+            --output-root outputs/toy \
+            --experiment-name cost_agent_b055 \
+            --budget 0.55
+          cost-agent-mot validate --artifact-root outputs/toy/cost_agent_b055

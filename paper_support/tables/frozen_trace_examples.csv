@@ -1,0 +1,6 @@
+sequence,frames,risk_level,base_card_score,ranking_key,ranking_score,selected_stream,selected_policy,verifier_result,reason
+data23-1,70,medium,0.547,Cost-Agent ranking score,0.144,Original detector stream,BoT-SORT standard policy,accepted,retained on original stream by the Cost-Agent budget scan
+data24-1,471,high,0.880,Cost-Agent ranking score,0.300,HRTI-enhanced detector stream,BoT-SORT standard policy,accepted,selected by Cost-Agent ranking score under the frame-weighted budget
+data36-10,209,high,0.811,Cost-Agent ranking score,0.650,HRTI-enhanced detector stream,TCR crowded-scene policy,accepted,selected by Cost-Agent ranking score under the frame-weighted budget
+data47-3,129,medium,0.465,Cost-Agent ranking score,0.168,Original detector stream,BoT-SORT standard policy,accepted,retained on original stream by the Cost-Agent budget scan
+data49-2,168,medium,0.539,Cost-Agent ranking score,0.167,Original detector stream,BoT-SORT standard policy,accepted,retained on original stream by the Cost-Agent budget scan

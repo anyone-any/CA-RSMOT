@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated Cost-Agent manuscript."
+title: "Cost-Agent: Verifiable Cost-Aware Reasoning over Detector-Tracker Policies for Drone-Based Remote-Sensing Multi-Object Tracking"
+authors:
+  - name: "Anonymous Authors"
+version: 0.1.0
+date-released: 2026-06-15
+repository-code: "https://github.com/anyone-any/DMAS"
+license: MIT
+keywords:
+  - remote sensing
+  - multi-object tracking
+  - cost-aware inference
+  - detector-tracker scheduling
+  - reproducibility artifact

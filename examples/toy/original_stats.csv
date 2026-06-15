@@ -1,0 +1,6 @@
+seq,split,frames,det_count,mean_det_per_frame,std_det_per_frame,class_dominance,mean_score,score_lt_020_frac
+S001,val,100,420,4.2,1.8,0.82,0.62,0.18
+S002,val,120,2100,17.5,4.5,0.66,0.58,0.24
+S003,val,80,3360,42.0,9.8,0.55,0.52,0.31
+S004,val,60,720,12.0,2.2,0.74,0.64,0.16
+

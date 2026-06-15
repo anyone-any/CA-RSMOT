@@ -1,0 +1,8 @@
+stream,tracker_policy,policy_id,track_dir,description
+original,standard,original_standard,tracks/original_standard,Original stream with standard tracker settings.
+original,strict,original_strict,tracks/original_strict,Original stream with strict tracker settings.
+original,crowded_scene,original_crowded,tracks/original_crowded,Original stream with crowded-scene tracker settings.
+hrti,standard,hrti_standard,tracks/hrti_standard,HRTI stream with standard tracker settings.
+hrti,strict,hrti_strict,tracks/hrti_strict,HRTI stream with strict tracker settings.
+hrti,crowded_scene,hrti_crowded,tracks/hrti_crowded,HRTI stream with crowded-scene tracker settings.
+
